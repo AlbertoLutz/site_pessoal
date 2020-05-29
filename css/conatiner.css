@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1250px;
+    height: 1400px;
+}
+
+.posts {
+    text-align: center;
+    width: 610px;
+    margin: 50px auto 0 auto;
+}
+
+
+li {
+    float: left;
+    height: 150px;
+
+}
+
+.icons li {
+    padding: 0 30px;
+    height: 40px;
+    overflow: hidden;
+    font-size: 20px;    
+}
+
+a {
+    text-decoration: none;
+    color: teal;
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: bold;
+}
+
+.icons a:hover img {
+    margin-top: -80px;
+    transition: 2s;
+}
+
+aside {
+    width: 1000px;
+    float: left;  
+    margin-left: 10%;
+    margin-bottom: 110px;
+}
+
+.bloco01fig {
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+
+.bloco02fig {
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.bloco03fig {
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.bloco04fig {
+   float: left;
+   margin-top: 50px;
+   margin-right: 50px;
+   
+}
+
+.bloco05fig {
+   float: left;
+   margin-top: 50px;
+   margin-right: 50px;
+   
+}
+
+.bloco06fig {
+    float: left;
+    margin-top: 50px;  
+}
+
+.postagens img {
+    border-radius: 5px;
+    
+}
+
+.chamada {
+    clip-path: polygon(71% 0, 78% 7%, 100% 7%, 100% 100%, 0 100%, 0 7%, 65% 7%);
+    width: 300px;
+    height: 150px;
+    background-color: whitesmoke;
+    position: absolute;
+    margin-top: 150px;   
+}
+
+
+.title {
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 35px;
+    color: #1e272e;
+
+}
+
+.chamada img {
+    float: right;
+    padding: 15px;   
+}
+
+.data {
+    text-align: center;
+    margin: 20px 20px;
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+.bloco01fig [src="img/pantone.jpg"] {
+    box-shadow: 1px 1px 8px 0.1px #1e272e;
+    transition: 1s;
+    
+    
+}
+
+.bloco01fig [src="img/pantone.jpg"]:hover {
+    box-shadow: 1px 1px 15px 2px black;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.bloco01fig .title {
+    transition: 1s;
+}
+
+.bloco01:hover .title {
+    color: #ff9617;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+
+.bloco02fig [src="img/UX_Design.jpg"] {
+    box-shadow: 1px 1px 8px 0.1px #1e272e;
+    transition: 1s;
+    
+}
+
+.bloco02fig [src="img/UX_Design.jpg"]:hover {
+    box-shadow: 1px 1px 15px 2px black;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.bloco02fig .title {
+    transition: 1s;
+}
+
+.bloco02:hover .title {
+    color: #ff9617;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+
+.bloco03fig [src="img/museus.jpg"] {
+    box-shadow: 1px 1px 8px 0.1px #1e272e;
+    transition: 1s;
+    
+}
+
+.bloco03fig [src="img/museus.jpg"]:hover {
+    box-shadow: 1px 1px 15px 2px black;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.bloco03fig .title {
+    transition: 1s;
+}
+
+.bloco03:hover .title {
+    color: #ff9617;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+
+.bloco04fig [src="img/arquetipos.jpg"] {
+    box-shadow: 1px 1px 8px 0.1px #1e272e;
+    transition: 1s;
+    
+}
+
+.bloco04fig [src="img/arquetipos.jpg"]:hover {
+    box-shadow: 1px 1px 15px 2px black;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.bloco04fig .title {
+    transition: 1s;
+}
+
+.bloco04:hover .title {
+    color: #ff9617;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+
+.bloco05fig [src="img/UX_Design.jpg"] {
+    box-shadow: 1px 1px 8px 0.1px #1e272e;
+    transition: 1s;
+    
+}
+
+.bloco05fig [src="img/UX_Design.jpg"]:hover {
+    box-shadow: 1px 1px 15px 2px black;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.bloco05fig .title {
+    transition: 1s;
+}
+
+.bloco05:hover .title {
+    color: #ff9617;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+
+.bloco06fig [src="img/UX_Design.jpg"] {
+    box-shadow: 1px 1px 8px 0.1px #1e272e;
+    transition: 1s;
+    
+}
+
+.bloco06fig [src="img/UX_Design.jpg"]:hover {
+    box-shadow: 1px 1px 15px 2px black;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.bloco06fig .title {
+    transition: 1s;
+}
+
+.bloco06:hover .title {
+    color: #ff9617;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+
+.pages {
+    clear: both;
+    position: relative;
+    width: 300px;
+    height: 30px;
+    border: 1px solid #1e272e;
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;  
+}
+
+a {
+    line-height: 30px;
+    font-family: "Source Sans Pro",sans-serif;   
+}
+
+.pages:hover {
+    border-color: #ff9617;
+    box-shadow: 1px 1px 5px 1px rgb(223, 114, 13);
+    transition: 1s;
+}
+
+footer {
+    width: 1300px;
+    height: 100px;
+    background-color: #1e272e;
+    margin-top: 100px;
+}
+
+footer span {
+    text-transform: uppercase;
+    font-family: "Source Sans Pro",sans-serif; 
+    color: whitesmoke;
+    margin-left: 180px;
+    line-height: 100px;
+}
+
+footer span a {
+    color: #ff9617;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

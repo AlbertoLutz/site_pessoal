@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1250px;
+    height: 1400px;
+}
+
+.about {
+    width: 1250px;
+    height: 1200px;
+    position: absolute;
+    margin-top: 120px;
+    left: 0px;
+}
+
+.about-container {
+    width: 900px;
+    height: 700px;
+    margin: 0 auto;  
+}
+
+.about-container img {
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    float: left;
+    margin: 10px;       
+}
+
+.wrapper {
+    filter: drop-shadow(2px 2px 5px #1e272e); 
+    transition: 1s;
+    cursor: pointer;
+}
+
+.wrapper:hover {
+    transform: scale(1.03);
+    transition: 1s;
+}
+
+.about-container p {
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+    color: #1e272e;
+    text-indent: 30px;
+}
+
+p:nth-child(n+6) {
+    text-indent: 0;  
+}
+
+.about .about-container a {
+    font-style: italic;
+}
+
+.posts {
+    text-align: center;
+    width: 610px;
+    margin: 50px auto 0 auto;
+}
+
+
+li {
+    float: left;
+    height: 150px;
+
+}
+
+.icons li {
+    padding: 0 30px;
+    height: 40px;
+    overflow: hidden;
+    font-size: 20px;    
+}
+
+a {
+    text-decoration: none;
+    color: teal;
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: bold;
+}
+
+.icons a:hover img {
+    margin-top: -80px;
+    transition: 2s;
+}
+
+
+
+.pages {
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    border: 1px solid #1e272e;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 900px;
+    margin-left: 150px;
+}
+
+a {
+    line-height: 30px;
+    font-family: "Source Sans Pro",sans-serif;   
+}
+
+.pages:hover {
+    border-color: #ff9617;
+    box-shadow: 1px 1px 5px 1px rgb(113, 89, 193);
+    transition: 1s;
+}
+
+footer {
+    position: absolute;
+    width: 1300px;
+    height: 100px;
+    background-color: #1e272e;
+    margin-top: 1015px;
+    left: 0px;
+}
+
+footer span {
+    text-transform: uppercase;
+    font-family: "Source Sans Pro",sans-serif; 
+    color: whitesmoke;
+    margin-left: 150px;
+    line-height: 100px;
+}
+
+footer span a {
+    color: #ff9617;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
